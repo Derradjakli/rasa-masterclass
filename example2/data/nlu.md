@@ -16,12 +16,12 @@
 
 <!-- label the equipment entity here -->
 ## intent:inform
-- I need a video projector
-- Book me a whiteboard
-- tv please
-- smart board 
-- I need speakers
-- reserve a microphones
+- I need a [video projector](equipment)
+- Book me a [whiteboard](equipment)
+- [tv](equipment) please
+- [smart board](equipment) 
+- I need [speakers](equipment) 
+- reserve a [microphones](equipment) 
 
 ## intent:goodbye
 - bye
