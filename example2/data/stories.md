@@ -9,6 +9,15 @@
 
 ## meeting room book + equipment
 <!-- add the story here : in this story, the assistant should ask for the equipment to book -->
+* great
+ - utter_how_cançi_help_you
+* book_meeting_room{"facility_type": "meeting room"}
+ - utter_equipment
+* inform
+ - action_facility_book
+ - slot{"room_name": "Actor"}
+* thanks
+ - utter_goodbye
 
 ## happy path
 * greet
